@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { CircuitBoard, Cpu, Flame, Info, List, Mail, Play, Settings, Shield, Users, Wrench } from 'lucide-react';
+import { CircuitBoard, Cpu, Flame, Info, List, Play, Settings, Shield, Users, Wrench } from 'lucide-react';
 
 function App() {
   useEffect(() => {
