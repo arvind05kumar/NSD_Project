@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
-import { CircuitBoard, Cpu, Flame, Info, List, Mail, Play, Settings, Shield, Users, Wrench } from 'lucide-react';
+import { CircuitBoard, Cpu, Flame, Info, List, Play, Settings, Shield, Users, Wrench } from 'lucide-react';
+import CircuitBreakers from "../Public/Circuit breakers.png" ;
+import circuit from "../Public/circuit.jpg" ;
+import robot from "../Public/robot.jpg" ;
 
 function App() {
   useEffect(() => {
@@ -32,7 +35,7 @@ function App() {
               Self Fire Brigade Robot
             </h1>
             <img 
-              src="/Circuit breakers.png" 
+              src={CircuitBreakers} 
               alt="Circuit Breakers Logo" 
               className="h-36 md:h-48 object-contain animate-slide-up"
               style={{ animationDelay: '0.3s' }}
@@ -63,7 +66,7 @@ function App() {
               </div>
               <div className="reveal">
                 <img 
-                  src="/robot.jpg"
+                  src={robot}
                   alt="Arduino-based robot"
                   className="rounded-lg shadow-lg w-full max-w-md mx-auto"
                 />
@@ -184,7 +187,7 @@ function App() {
             </div>
             <div className="bg-white/80 backdrop-blur-sm rounded-lg shadow-lg p-6 reveal">
               <img 
-                src="/circuit.jpg"
+                src={circuit}
                 alt="Circuit diagram representation"
                 className="w-full rounded-lg"
               />
